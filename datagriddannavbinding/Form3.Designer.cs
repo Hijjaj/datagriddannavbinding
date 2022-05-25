@@ -57,9 +57,9 @@ namespace datagriddannavbinding
             this.phoneMhsDataGridViewTextBoxColumn,
             this.iDUserDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.mahasiswaBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(249, 68);
+            this.dataGridView1.Location = new System.Drawing.Point(80, 274);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(645, 175);
             this.dataGridView1.TabIndex = 0;
             // 
             // prodiTIDataSet1

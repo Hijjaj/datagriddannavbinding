@@ -23,5 +23,7 @@ namespace datagriddannavbinding
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet1.Mahasiswa);
 
         }
+
+        
     }
 }

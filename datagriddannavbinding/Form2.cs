@@ -16,5 +16,17 @@ namespace datagriddannavbinding
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 summon = new Form3();
+            summon.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 summon2 = new Form4();
+            summon2.Show();
+        }
     }
 }

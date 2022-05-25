@@ -80,6 +80,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ProdiTIDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ProdiTIDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProdiTIDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProdiTIDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProdiTIDataSet3.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -124,6 +134,28 @@
     </None>
     <None Include="ProdiTIDataSet1.xss">
       <DependentUpon>ProdiTIDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProdiTIDataSet2.xsc">
+      <DependentUpon>ProdiTIDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProdiTIDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProdiTIDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProdiTIDataSet2.xss">
+      <DependentUpon>ProdiTIDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProdiTIDataSet3.xsc">
+      <DependentUpon>ProdiTIDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ProdiTIDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProdiTIDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProdiTIDataSet3.xss">
+      <DependentUpon>ProdiTIDataSet3.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
