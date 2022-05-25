@@ -24,6 +24,15 @@ namespace datagriddannavbinding
 
         }
 
-        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            Form4 summon = new Form4();
+            summon.Show();
+        }
     }
 }

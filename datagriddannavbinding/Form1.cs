@@ -39,8 +39,26 @@ namespace datagriddannavbinding
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form2 summon = new Form2();
-            summon.Show();
+            
+            
+            String user = "Hijjaj";
+            String pass = "123";
+            if (TxtUsername.Text.Equals(user) && TxtPassword.Text.Equals(pass)) 
+            {
+                Form2 summon = new Form2();
+                summon.Show();
+            }
+            else
+            {
+                MessageBox.Show("Data Salah!");
+            }
+        }
+
+       
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 

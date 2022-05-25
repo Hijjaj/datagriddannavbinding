@@ -28,5 +28,10 @@ namespace datagriddannavbinding
             Form4 summon2 = new Form4();
             summon2.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
